@@ -34,8 +34,8 @@ author: Francesco Anselmo
 #
 # Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-# metadata: fmt-archive
-metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vTqtmsLpXfLr-UyZ4zKnaEBsfcKktzKt0vRO9YrSB96Ehxrb5v3hKv5Q-ooTNdue-0wzqT7zSMao8CM/pub?gid=433080640&single=true&output=csv
+metadata: fmt-archive
+# metadata-csv: https://docs.google.com/spreadsheets/d/e/2PACX-1vTqtmsLpXfLr-UyZ4zKnaEBsfcKktzKt0vRO9YrSB96Ehxrb5v3hKv5Q-ooTNdue-0wzqT7zSMao8CM/pub?gid=433080640&single=true&output=csv
 
 ##########
 # Site/Organization Branding 
