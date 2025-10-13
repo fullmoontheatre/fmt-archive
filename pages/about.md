@@ -20,9 +20,11 @@ padding: 6em
 
 {% include feature/jumbotron.html objectid="https://fullmoontheatre.org/img/fmt_mirrors_day.jpg" %}
 
-{% include feature/nav-menu.html sections="About the Collection" %}
+{% include feature/nav-menu.html sections="About the Full Moon Theatre Collection" %}
 
-## About the Collection
+
+## About the Full Moon Theatre Collection
+
 
 In 1992, in Gourgoubès, in the south of France, an international team of physicists, engineers, artists, musicians, writers, choreographers, dancers, film directors, television producers led by the French opera director Humbert Camerlo and the Arup engineer Peter Rice created the first open air theatre performance exclusively illuminated by the light of the moon.
 
