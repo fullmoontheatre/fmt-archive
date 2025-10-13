@@ -4,36 +4,24 @@ layout: about
 permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
-# featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
-# set background-position for featured image, "center", "top", "bottom"
-position: bottom
-# major heading to display over featured image
-heading: About the Collection
-# paragraph text below heading in featured image
-sub-heading: 
-# additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
-padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## About CollectionBuilder CSV
+{% include feature/jumbotron.html objectid="https://fullmoontheatre.org/img/fmt_mirrors_day.jpg" %}
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+{% include feature/nav-menu.html sections="About the Collection" %}
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+## About the Collection
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+In 1992, in Gourgoubès, in the south of France, an international team of physicists, engineers, artists, musicians, writers, choreographers, dancers, film directors, television producers led by the French opera director Humbert Camerlo and the Arup engineer Peter Rice created the first open air theatre performance exclusively illuminated by the light of the moon.
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+Thirty years later, we have recreated the Full Moon Theatre “Wonderful Laboratory” as an opportunity to work together as a community after experiencing the isolation of the pandemic and reflect on the fragility of our ecosystem and on the impact of our design actions.
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+The new Full Moon Theatre has incorporated, developed and built on existing research to design and construct a site-specific open air Full Moon Theatre, equipped with locally fabricated moonlight reflectors.
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+Part of the ongoing design effort is to create an online “Full Moon Library” which includes all the digital tools, documentation and techniques developed during the workshop that anyone could use to stage a Full Moon Theatre performance anywhere in the world in the future.
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+This digital archive contains material from both the Humbert Camerlo archive and from the new research that we are conducting
+as part of the new Full Moon Theatre project.
+
