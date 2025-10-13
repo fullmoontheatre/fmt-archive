@@ -1,6 +1,7 @@
 field,display_name,btn,hidden,sort_name,facet_name
 date,Date,,,Date Created
 description,,,true,
+dimensions,Dimensions,,,
 creator,Creator,,,
 subject,,true
 location,,true,,,Location Depicted
